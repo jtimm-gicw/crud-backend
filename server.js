@@ -64,9 +64,9 @@ app.use(express.json());
 // ===============================
 // GET ALL USERS
 // ===============================
-app.get("/api/users", async (req, res) => {
-  const users = await User.find();
-  res.json(users);
+app.get("/api/users", (req, res) => {
+  console.log("HIT /api/users");
+  res.json([{ test: "ok" }]);
 });
 
 // ===============================

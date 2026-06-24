@@ -1,7 +1,7 @@
 {
   "name": "crud-backend",
   "version": "1.0.0",
-  "description": "",
+  "description": "EchoAPI works just like Postman but inside VS Code.",
   "main": "mockUserModel.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -19,8 +19,11 @@
   },
   "homepage": "https://github.com/jtimm-gicw/crud-backend#readme",
   "dependencies": {
+    "axios": "^1.18.1",
     "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
     "express": "^5.2.1",
     "uuid": "^14.0.1"
-  }
+  },
+  "type": "commonjs"
 }
